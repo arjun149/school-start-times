@@ -39,7 +39,12 @@ params = c(
   gamma = 0.024,
   beta_1 = -0.09318,
   Irecep = 1.0 / 291.0,
-  targc = 0.9677)
+  targc = 0.9677,
+  lightSlope = 6.0,
+  lightRiseTime = 8.0,
+  lightFallTime = 17.0,
+  lightAmplitude = 700.0,
+  lightBaseline = 40.0)
 
 
 out <- rk4(default_initial_conditions, fullIntegrationWindow, circadianModel, params)
