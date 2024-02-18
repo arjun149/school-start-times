@@ -3,6 +3,7 @@
 #' The named vector contains parameters for the circadian, sleep, and two
 #' process models plus parameters for the light functions.
 #'
+#'
 #' @details 
 #' - 'A_1', 'A_2', 'sigma', 'beta_L1', 'beta_L2', 'P', 'G', 'I_0', 'delta', 'alpha_0', 'K', 'tau', 'gamma', 'beta_1': Forger99 variables for light ODEs (see reference below)
 #'   *Forger, D. B., Jewett, M. E., & Kronauer, R. E. (1999). A simpler model of the human circadian pacemaker. Journal of 
@@ -25,6 +26,7 @@
 #' - 'lightFallTime': The time of day when natural light exposure ends (hours)
 #' - 'lightAmplitude': The amplitude of the light exposure curve (lux)
 #' - 'lightBaseline': The baseline light exposure (lux)
+#' 
 #' 
 #' @format A named vector with the following parameters
 #' \describe{
